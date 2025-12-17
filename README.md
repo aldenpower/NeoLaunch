@@ -1,4 +1,4 @@
-# NeoLaunch
+# <img src="assets/matrix.png" width="32" height="32"> NeoLaunch
 A Linux desktop application that opens terminal in fullscreen and runs a Matrix-style animation.
 
 ## Motivation

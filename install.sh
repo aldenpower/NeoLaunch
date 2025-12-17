@@ -21,7 +21,7 @@ DESKTOP_DIR="$HOME/.local/share/applications"
 mkdir -p "$APP_DIR" "$BIN_DIR" "$DESKTOP_DIR"
 
 cp matrix.sh "$BIN_DIR/"
-cp icon/matrix.png "$APP_DIR/"
+cp assets/matrix.png "$APP_DIR/"
 
 cat > "$DESKTOP_DIR/NeoLaunch.desktop" <<EOF
 [Desktop Entry]

@@ -1,6 +1,8 @@
 # <img src="assets/matrix.png" width="32" height="32"> NeoLaunch
 A Linux desktop application that opens terminal in fullscreen and runs a Matrix-style animation.
 
+![](./assets/matrix.gif)
+
 ## Motivation
 
 This project was created to bridge the gap between command-line knowledge and desktop-level application integration, demonstrating:
@@ -16,27 +18,19 @@ This project was created to bridge the gap between command-line knowledge and de
 
 The following dependencies must be installed on the system:
 
-- [alacritty](https://github.com/alacritty/alacritty) (terminal emulator)
 - cmatrix (terminal animation)
 
 ```bash
 sudo apt update
-sudo apt install alacritty cmatrix
+sudo apt install cmatrix
 ```
 ## Installation
 
 ```bash
-git clone https://github.com/aldenpower/NeoLaunch.git
-cd NeoLaunch
+git clone https://github.com/aldenpower/neo-launch.git
+cd neo-launch
 
 ./install.sh
 ```
 ## Usage
 Launch "NeoLaunch" from your application menu.
-
-## Tested versions
-
-| Distro       | DE / WM | Terminal  | Result |
-|--------------|---------|-----------|--------|
-| Ubuntu       | GNOME   | Alacritty | ✅ OK |
-| Debian       | GNOME   | Alacritty | ✅ OK |
